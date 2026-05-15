@@ -9,6 +9,11 @@ Personal Go learning project. Each topic lives in its own subdirectory under `fi
 brew install go
 ```
 
+**Install gopls (Go LSP)**
+```bash
+go install golang.org/x/tools/gopls@latest
+```
+
 **Install golangci-lint**
 ```bash
 brew install golangci-lint
@@ -17,6 +22,7 @@ brew install golangci-lint
 **Verify installations**
 ```bash
 go version
+gopls version
 golangci-lint --version
 ```
 
